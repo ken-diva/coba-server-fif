@@ -5,11 +5,11 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Coba server!"
+    return "Coba tes route pakai ini!"
 
 
-@app.route("/route_baru")
-def route_baru():
+@app.route("/tes")
+def tes():
     return "Coba route baru!"
 
 
